@@ -48,6 +48,16 @@ html {
 #inicio .contenido header .contenido-header nav ul a:hover{
     color: #ff5080;
 }
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+#inicio .contenido header .contenido-header .redes a:hover{
+    color: #ff5080;
+}
 
 #inicio .contenido .presentacion{
     max-width: 1100px;
@@ -69,4 +79,52 @@ html {
     font-size: 55px;
     margin-bottom: 25px;
     text-align: center;
+}
+#inicio .contenido .presentacion h2 span{
+    font-size: 30px;
+    color: #ff5080;
+}
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center; 
+}
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+#inicio .contenido .presentacion a:hover{
+    background-color: #ff5080;
+}
+#icono-nav{
+    color: #fff;
+    display: none;
+}
+
+/*SECCION SOBRE MI*/
+#sobremi{
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+#sobremi .contenedor-foto{
+    max-width: 400px;
+    margin-right: 80px;
+}
+#sobremi .contenedor-foto img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
 }
