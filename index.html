@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
   integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
   crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Portafolio Digital</title>
 </head>
 <body>
@@ -17,11 +17,11 @@
           <h1>Mi portafolio WEB</h1>
           <nav id="nav" class="">
             <ul id="links">
-              <li><a href="#inicio" class="seleccionado">INICIO</a></li>
-              <li><a href="#sobremi">SOBRE MI</a></li>
-              <li><a href="#servicios">SERVICIOS</a></li>
-              <li><a href="#portafolio">PORTAFOLIO</a></li>
-              <li><a href="#contacto">CONTACTO</a></li>
+              <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+              <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+              <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+              <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+              <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
             </ul>
           </nav>
           <!--ICONOS DEL MENU-->
@@ -51,7 +51,7 @@
   <!--SECCION SOBRE MI-->
   <section id="sobremi">
     <div class="contenedor-foto">
-      <img src="Img/imgBlanca.jpeg" alt="">
+      <img src="/img/imgBlanca.jpeg" alt="">
     </div>
     <div class="sobremi">
       <p class="titulo-seccion">Sobre Mi</p>
@@ -307,7 +307,8 @@
     <a href="#"><i class="fa-brands fa-instagram"></i></a>
   </div>
 </footer>
-<script src="javaScript.js"></script>
+<script src="js/javaScript.js"></script>
+<script src="js/sw.js"></script>
 </body>
-<script src="javaScript.js"></script>
+
 </html>

@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
 }
 #inicio {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),  url("Img/informatica.jpg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),  url("/img/informatica.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -56,6 +56,9 @@ html {
     transition: .5s;
 }
 #inicio .contenido header .contenido-header .redes a:hover{
+    color: #ff5080;
+}
+#inicio .contenido header .contenido-header .seleccionado {
     color: #ff5080;
 }
 
@@ -238,7 +241,7 @@ html {
 }
 /*Sección Habilidades*/
 .contenedor-skills{
-    background: linear-gradient(#eb5a5acc, rgba(33,16,16,.8)), url("Img/imgVerde.jpeg");
+    background: linear-gradient(#eb5a5acc, rgba(33,16,16,.8)), url("/img/imgVerde.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -495,6 +498,32 @@ footer a{
     }
     #servicios .fila{
        display: block; 
+    }
+    #servicios .fila .servicio{
+        margin: 10px auto;
+    }
+    .contenedor-skills{
+        padding: 50px 20px;
+    }
+    #portafolio{
+        padding: 50px 0;
+    }
+    #portafolio .fila{
+        display: block;
+    }
+    #portafolio .fila .proyecto{
+        margin: 10px auto;
+    }
+    #contacto{
+        padding: 50px 15px;
+    }
+    #contacto .contenedor-form .mitad{
+        margin-bottom: 15px;
+        display: block;
+    }
+    #contacto .contenedor-form .mitad input{
+        width: 100%;
+        margin-bottom: 15px;
     }
 }   
 
