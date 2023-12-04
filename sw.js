@@ -4,11 +4,18 @@ const archivosCache=[
     "/index.html",
     "/css/style.css",
     "/img/imgBlanca.jpeg",
-    "/img/imgBlanca1.jpg",
-    "/img/imgVerde.jpeg",
+    "/img/Angular.jpeg",
+    "/img/Arduino.png",
+    "/img/Dacomp.png",
+    "/img/Pagina para consumir.png",
+    "/img/Patitas.jpeg",
+    "/img/Vidrieria.jpeg",
+    "/img/Fruteria.jpeg",
     "/img/informatica.jpg",
+    "/img/imgVerde.jpeg",
     "/js/app.js",
     "/js/javaScript.js"
+    
 ]
 
 
